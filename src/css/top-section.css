@@ -1,0 +1,30 @@
+#top-section {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #393939;
+  padding-bottom: 30px;
+}
+.title {
+  margin-left: 10px;
+  color: #FFFFFF;
+  font-size: 17px;
+  display: inline-block;
+}
+.profile {
+  border-radius: 100%;
+  width: 12%;
+  height: 12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#name {
+  margin-top: 20px;
+  text-align: center;
+  color: #FF9900;
+  font-size: 25px;
+}
+#description {
+  margin-top: 20px;
+  text-align: center;
+}
