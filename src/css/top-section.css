@@ -3,6 +3,7 @@
   width: 100%;
   background-color: #393939;
   padding-bottom: 30px;
+  border-bottom: 5px solid #FF9900;
 }
 .title {
   margin-left: 10px;
