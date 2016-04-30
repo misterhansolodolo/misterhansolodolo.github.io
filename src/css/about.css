@@ -3,16 +3,26 @@ body {
 }
 
 #title {
+  border:           1px solid #0A3088;
   margin-left:      auto;
   margin-right:     auto;
   width:            80%;
   background-color: black;
+  padding-top:      1%;
+  padding-bottom:   1%;
 }
 #name {
-  color: white;
+  font-size:  20px;
+  margin-top: 1%;
+  text-align: center;
+  color:      white;
 }
 #description {
-  color: white;
+  font-size:  20px;
+  margin-top: 1%;
+  text-align: center;
+  display:    block;
+  color:      white;
 }
 #gif{
   z-index:  -1;
@@ -20,13 +30,25 @@ body {
   width:    100%;
   height:   100%;
 }
+#profile{
+  border:        4px solid white;
+  margin:        0 auto;
+  display:       block;
+  width:         20%;
+  border-radius: 100%;
+}
 #audio {
   width:  300px;
   margin: 0 auto;
 }
 /* 3 boxes */
 @media screen and (max-width: 1024px) {
-
+  #title {
+    width: 100%;
+  }
+  #profile {
+    width: 30%;
+  }
 }
 
 /* 2 boxes */
@@ -37,17 +59,40 @@ body {
   #audio {
     display: none;
   }
+  #profile {
+    width: 30%;
+  }
 }
 
-/*1 box */
-@media screen and (max-width: 420px) {
+/*phone */
+@media screen and (max-width: 480px) {
   #gif {
     display: none;
   }
   #title {
-    width: 100%;
+    padding-top:    3%;
+    padding-bottom: 3%;
+    border-bottom:  1px solid white;
+    width:          100%;
   }
   #audio {
     display: none;
+  }
+  #profile{
+    margin-top: 2%;
+    width: 70%;
+  }
+  #name {
+    font-size:  20px;
+    margin-top: 2%;
+    text-align: center;
+    color:      white;
+  }
+  #description {
+    font-size:  20px;
+    margin-top: 2%;
+    text-align: center;
+    display:    block;
+    color:      white;
   }
 }
