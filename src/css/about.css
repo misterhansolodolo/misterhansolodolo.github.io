@@ -56,11 +56,11 @@ body {
   #title {
     width:  100%;
   }
-  #audio {
-    display: none;
-  }
   #profile {
     width: 30%;
+  }
+  #audio{
+    display:  none;
   }
 }
 
@@ -72,15 +72,15 @@ body {
   #title {
     padding-top:    3%;
     padding-bottom: 3%;
-    border-bottom:  1px solid white;
+    border:         1px solid white;
     width:          100%;
-  }
-  #audio {
-    display: none;
   }
   #profile{
     margin-top: 2%;
-    width: 70%;
+    width:      70%;
+  }
+  #audio{
+    display:  none;
   }
   #name {
     font-size:  20px;
