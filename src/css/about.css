@@ -83,13 +83,13 @@ body {
     display:  none;
   }
   #name {
-    font-size:  20px;
+    font-size:  17px;
     margin-top: 2%;
     text-align: center;
     color:      white;
   }
   #description {
-    font-size:  20px;
+    font-size:  17px;
     margin-top: 2%;
     text-align: center;
     display:    block;
