@@ -86,8 +86,8 @@ body {
   display:          inline-block;
   border:           1px solid #0A3088;
   width:            32.3%;
-  height:           450px;
-  margin-left: 2px;
+  height:           300px;
+  margin-left:      2px;
 }
 
 /* 3 boxes */
@@ -115,6 +115,9 @@ body {
   #box-container {
     width: 100%;
   }
+  .entry-box {
+    height: 225px;
+  }
 }
 
 /* 2 boxes */
@@ -134,6 +137,7 @@ body {
   .entry-box {
     width:       49%;
     margin-left: 0px;
+    height:      200px;
   }
 }
 
@@ -186,5 +190,6 @@ body {
   .entry-box {
     width:  100%;
     border: 1px solid white;
+    height: 300px;
   }
 }
