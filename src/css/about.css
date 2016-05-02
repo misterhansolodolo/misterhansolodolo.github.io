@@ -82,12 +82,50 @@ body {
 }
 
 .entry-box {
+  position:         relative;
   background-color: black;
   display:          inline-block;
   border:           1px solid #0A3088;
   width:            32.3%;
   height:           300px;
   margin-left:      2px;
+}
+
+.entry-box-front,
+.entry-box-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.entry-box-front,
+.entry-box-back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.entry-box-front {
+  background-color: #ff5078;
+}
+
+.entry-box-back {
+  background-color: #1e1e1e;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.entry-box:hover .entry-box-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.entry-box:hover .entry-box-back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
 }
 
 /* 3 boxes */
