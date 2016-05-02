@@ -82,11 +82,12 @@ body {
 }
 
 .entry-box {
-  background-color: #0A3088;
+  background-color: black;
   display:          inline-block;
   border:           1px solid #0A3088;
   width:            32.3%;
-  height:           20px;
+  height:           450px;
+  margin-left: 2px;
 }
 
 /* 3 boxes */
@@ -131,7 +132,8 @@ body {
   }
 
   .entry-box {
-    width: 49%;
+    width:       49%;
+    margin-left: 0px;
   }
 }
 
@@ -180,8 +182,9 @@ body {
     text-align: center;
     font-size:  17px;
   }
-  
+
   .entry-box {
-    width: 100%;
+    width:  100%;
+    border: 1px solid white;
   }
 }
