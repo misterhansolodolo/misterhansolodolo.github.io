@@ -39,7 +39,6 @@ $(document).ready(function() {
             '<source src="./src/music/zhu.mp3" type="audio/mpeg">' +
           '<audio>' +
         '</div>');
-        // window.location.replace('/about.html');
       });
     });
   });
