@@ -1,6 +1,28 @@
 body {
   background-color: black;
 }
+.contact-icon {
+  width: 50px;
+  margin-top: 10px;
+}
+
+#audio {
+  display: none;
+}
+
+#play {
+  display: none;
+}
+
+#pause {
+  display: inline;
+}
+
+#contact-bar {
+  width:    50px;
+  top:      40%;
+  position: fixed;
+}
 
 #title {
   border:           1px solid #0A3088;
@@ -51,7 +73,7 @@ body {
   width:        80%;
   margin-left:  auto;
   margin-right: auto;
-  margin-top:   3%;
+  margin-top:   1%;
   color:        white;
   font-size:    20px;
 }
@@ -69,7 +91,7 @@ body {
   width:        80%;
   margin-left:  auto;
   margin-right: auto;
-  margin-top:   3%;
+  margin-top:   1%;
   color:        white;
   font-size:    20px;
 }
@@ -131,25 +153,40 @@ body {
 }
 
 .front-img {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width:        150%;
+  display:      block;
+  margin-left:  -28%;
+  margin-top:   -20%;
 }
+
 .back-title {
   margin-top: 25%;
-  font-size: 20px;
+  font-size:  20px;
   text-align: center;
-  color: white;
+  color:      white;
 }
+
 .back-info {
   margin-top: 1%;
-  color: white;
+  color:      white;
   text-align: center;
 }
 
+/** just to make the boxes resize appropriately **/
+@media screen and (max-width: 1440px) {
+  .entry-box {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .entry-box {
+    height: 200px;
+  }
+}
+
 /* 3 boxes */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
   #title {
     width: 100%;
   }

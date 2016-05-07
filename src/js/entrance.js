@@ -2,6 +2,10 @@ $(document).ready(function() {
   $(window).load(function() {
     $('#loading-bar').animate({width: '30%'}, 3000, function() {
       $('#loading-bar').animate({width: '0px'}, 200, function() {
+        function aboutMeToString() {
+
+        }
+
         $('body').html(
           '<img src="./src/images/background.gif" id="gif" />' +
           '<div id="title">' +
@@ -24,10 +28,11 @@ $(document).ready(function() {
             '</div>' +
             '<div class="entry-box">' +
               '<div class="entry-box-front">' +
-
+                '<img class="front-img" src="./src/images/location.jpg" />' +
               '</div>' +
               '<div class="entry-box-back">' +
-
+                '<div class="back-title"> Current Location - Denver, CO </div>' +
+                '<div class="back-info"> Raised in San Diego, CA </div>' +
               '</div>' +
             '</div>' +
             '<div class="entry-box">' +
@@ -69,10 +74,16 @@ $(document).ready(function() {
             '</div>' +
           '</div>' +
 
-          '<div id="audio">' +
-            '<audio controls autoplay loop>' +
-              '<source src="./src/music/zhu.mp3" type="audio/mpeg">' +
-            '<audio>' +
+          '<div id="contact-bar">' +
+            '<a href="https://www.facebook.com/hansol.biggy?ref=bookmarks" target="_blank">' +
+              '<img src=./src/images/fb-icon.png class="contact-icon" />' +
+            '</a>' +
+            '<a href="https://www.linkedin.com/in/hansol-yi-758946b9" target="_blank">' +
+              '<img src=./src/images/linkedin-icon.png class="contact-icon" />' +
+            '</a>' +
+            '<a href="https://misterhansolodoloblog.wordpress.com" target="_blank">' +
+              '<img src=./src/images/Wordpress-Icon.png class="contact-icon" />' +
+            '</a>' +
           '</div>'
         );
       });
