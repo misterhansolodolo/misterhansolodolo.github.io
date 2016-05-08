@@ -22,6 +22,7 @@ body {
 #contact-bar {
   width:    50px;
   top:      40%;
+  left:     1%;
   position: fixed;
 }
 
@@ -186,8 +187,13 @@ body {
   }
 }
 
-/* 3 boxes */
+/* fill whole screen */
 @media screen and (max-width: 900px) {
+  #contact-bar {
+    top:   88%;
+    width: 170px;
+    right: 0;
+  }
   #title {
     width: 100%;
   }
