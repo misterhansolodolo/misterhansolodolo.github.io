@@ -90,7 +90,7 @@ body {
   display:          inline-block;
   border:           1px solid #0A3088;
   width:            32.3%;
-  height:           300px;
+  height:           330px;
   margin-left:      2px;
 }
 
@@ -152,11 +152,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 16000px) {
-  .entry-box {
-    height: 250px;
-  }
-
+@media screen and (max-width: 1600px) {
   #name {
     font-size: 60px;
   }
