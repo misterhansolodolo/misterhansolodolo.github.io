@@ -87,7 +87,7 @@ body {
   margin-right:   auto;
   margin-top:     1%;
   color:          white;
-  font-size:      30px;
+  font-size:      25px;
 }
 
 #box-container {
@@ -225,14 +225,15 @@ body {
     font-size: 15px;
   }
 
-  #about-title {
-    width: 100%;
+  .about-title {
+    width:     100%;
     font-size: 20px;
   }
 
   #box-container {
     width: 100%;
   }
+
   .entry-box {
     height: 225px;
   }
@@ -260,12 +261,11 @@ body {
   #title {
     padding-top:    3%;
     padding-bottom: 3%;
-    border:         2px solid white;
     width:          100%;
   }
 
   #section-1 {
-    padding-top: 0px;
+    padding-top:    0px;
     padding-bottom: 0px;
   }
 
@@ -279,6 +279,7 @@ body {
 
   #description {
     text-align: center;
+    font-size:  20px;
   }
 
   #name {
@@ -286,9 +287,9 @@ body {
   }
 
   #profile{
-    margin-left: auto;
+    margin-left:  auto;
     margin-right: auto;
-    width:      70%;
+    width:        70%;
   }
 
   .entry-box {
