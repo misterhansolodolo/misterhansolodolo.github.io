@@ -223,9 +223,27 @@ body {
   #description {
     font-size: 25px;
   }
+  #message {
+    width: 60%;
+  }
+  #subject {
+    width: 60%;
+  }
+  #js_send {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1124px) {
+  #message {
+    width: 60%;
+  }
+  #subject {
+    width: 60%;
+  }
+  #js_send {
+    width: 60%;
+  }
   .entry-box {
     height: 200px;
   }
@@ -241,6 +259,15 @@ body {
 
 /* fill whole screen */
 @media screen and (max-width: 900px) {
+  #subject {
+    width: 90%;
+  }
+  #message {
+    width: 90%;
+  }
+  #js_send {
+    width: 90%;
+  }
   #title {
     width: 100%;
   }
@@ -318,6 +345,10 @@ body {
     margin-left:  auto;
     margin-right: auto;
     width:        70%;
+  }
+
+  #contact-description {
+    font-size: 20px;
   }
 
   .contact-icon {
