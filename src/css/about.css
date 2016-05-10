@@ -2,9 +2,44 @@ body {
   background-color: #ffd9b3;
 }
 .contact-icon {
-  width:      50px;
-  margin-top: 10px;
-  cursor:     pointer;
+  margin-top:  3%;
+  margin-left: 17.5%;
+  width:       10%;
+  cursor:      pointer;
+}
+
+#subject {
+  line-height: 30px;
+  font-size:   20px;
+  width:       40%;
+  display:     block;
+  margin:      1% auto;
+}
+
+#message {
+  display:   block;
+  width:     40%;
+  margin:    0 auto;
+  height:    300px;
+  font-size: 18px;
+}
+
+#js_send {
+  font-size:        18px;
+  height:           50px;
+  width:            40%;
+  display:          block;
+  margin:           5px auto;
+  border:           1px solid #4d2800;
+  background-color: #ffd9b3;
+  color:            #4d2800;
+}
+
+#contact-description {
+  margin-top: 1%;
+  color:      white;
+  font-size:  25px;
+  text-align: center;
 }
 
 #section-0 {
@@ -27,10 +62,8 @@ body {
 }
 
 #contact-bar {
-  width:    50px;
-  top:      40%;
-  left:     1%;
-  position: fixed;
+  width:    80%;
+  margin:   0 auto;
 }
 
 #title {
@@ -42,7 +75,7 @@ body {
 }
 
 #title-pic {
-  display: inline-block;
+  display:  inline-block;
   width:    38%;
 }
 
@@ -207,12 +240,6 @@ body {
 
 /* fill whole screen */
 @media screen and (max-width: 900px) {
-  #contact-bar {
-    top:   88%;
-    width: 170px;
-    right: 0;
-  }
-
   #title {
     width: 100%;
   }
@@ -290,6 +317,11 @@ body {
     margin-left:  auto;
     margin-right: auto;
     width:        70%;
+  }
+
+  .contact-icon {
+    width: 20%;
+    margin-left: 10%;
   }
 
   .entry-box {
